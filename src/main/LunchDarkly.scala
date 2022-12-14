@@ -8,5 +8,5 @@ object LunchDarkly {
       println("Hello, world")
   }
   
-  def enabled(flag: String = throw ClassNotFoundException("error")
+  def enabled(flag: String) = throw ClassNotFoundException("error")
 }
